@@ -28,7 +28,6 @@ function MovieForm() {
         console.log(data);
       });
   }
-
   function handleChange(e) {
     const value =
       e.target.type === "checkbox" ? e.target.checked : e.target.value;
